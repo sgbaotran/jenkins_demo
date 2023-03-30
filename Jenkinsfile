@@ -13,7 +13,7 @@ pipeline{
     
     stage("deploy") {
       steps {
-        echo 'in deploying 3'
+        echo 'in deploying 3.1'
       }
     }
   }

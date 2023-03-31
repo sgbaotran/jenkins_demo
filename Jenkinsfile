@@ -14,7 +14,7 @@ pipeline {
     
     stage('Run Script') {
       steps {
-        sh 'nppm version' // Run the script
+        sh 'npm version' // Run the script
       }
     }
     

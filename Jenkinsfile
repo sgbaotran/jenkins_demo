@@ -2,13 +2,21 @@ pipeline{
   
   agent any
   
-  stages {
-    stage("run"){
-      steps{
-        sh 'node ./main.js'
-      }
-  }
-  }
+  stage("build"){
+    steps{
+      sh 'npm install'
+    }
+   }
+  
+  stage("run"){
+    steps{
+      sh 'node ,/main.js'
+    }
+   }
+  
+  
+  
+
 }
     
     

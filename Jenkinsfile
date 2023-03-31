@@ -8,7 +8,7 @@ pipeline {
     }
     stage('Run Script') {
       steps {
-        sh 'node main.js' // Run the script
+        sh 'node ./main.js' // Run the script
       }
     }
   }

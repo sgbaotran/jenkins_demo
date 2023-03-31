@@ -18,6 +18,12 @@ pipeline {
       }
     }
     
+    stage('deploy') {
+      steps {
+        sh 'node main.js' // Run the script
+      }
+    }
+    
     
   }
   

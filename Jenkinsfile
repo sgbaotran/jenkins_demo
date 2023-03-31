@@ -3,19 +3,11 @@ pipeline{
   agent any
   
   stages {
-    
-    stage("build") {
-      
-      steps {
-        echo 'building'
+    stage("run"){
+      steps{
+        sh ''
       }
-    }
-    
-    stage("deploy") {
-      steps {
-        echo 'in deploying'
-      }
-    }
+  }
   }
 }
     

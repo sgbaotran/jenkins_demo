@@ -5,7 +5,7 @@ pipeline{
   stages {
     stage("run"){
       steps{
-        sh ''
+        sh 'node ./main.js'
       }
   }
   }

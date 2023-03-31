@@ -8,13 +8,13 @@ pipeline {
   stages {
     stage('Build') {
       steps {
-        sh 'npm install' // Install dependencies
+        sh 'echo building_node' // Install dependencies
       }
     }
     
     stage('Run Script') {
       steps {
-        sh 'node ./main.js' // Run the script
+        sh 'nppm version' // Run the script
       }
     }
     
